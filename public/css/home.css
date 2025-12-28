@@ -1,0 +1,24 @@
+li.btn{
+    list-style-type: none;
+    display: inline;   
+}
+
+li.btn a:hover{
+    background-color: rgb(41, 41, 111);
+    color: rgb(116, 116, 116);
+    transition: 0.5s all;
+}
+
+li.btn a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    background-color: rgb(61, 61, 167);
+    padding: 3px;
+    
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
